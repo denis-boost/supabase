@@ -125,7 +125,7 @@ const CostControl = ({}: CostControlProps) => {
                   />
 
                   <AlertTitle_Shadcn_ className="text-sm">
-                    Cost Control is disabled for organizations managed by{' '}
+                    The Spend Cap is not available for organizations managed by{' '}
                     {getPartnerName(selectedOrganization?.managed_by)}.
                   </AlertTitle_Shadcn_>
                 </Alert_Shadcn_>
